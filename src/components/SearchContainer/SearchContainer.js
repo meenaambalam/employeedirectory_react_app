@@ -16,15 +16,18 @@ class SearchContainer extends Component {
     };
 
     handleInputChange = event => {
-        const name = event.target.name;
+
+        console.log("handleInputChange function running");
         const value = event.target.value;
-        this.setState({
-            [name]: value
+        this.setState({ 
+            search: value
         });
     }
 
 
     render(){
+        console.log("this.state.search: ", this.state.search);
+        console.log("this.handleInputchange: ", this.handleInputChange);
         return (
             <div>
                 <SearchInput

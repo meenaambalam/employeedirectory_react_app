@@ -4,7 +4,7 @@ function SearchInput(props){
     return (
         <div>
             <input
-                onChange={props.handleInputchange}
+                onChange={props.handleInputChange}
                 value={props.search}
                 name="search"
                 type="text"

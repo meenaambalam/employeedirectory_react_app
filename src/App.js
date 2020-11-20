@@ -1,13 +1,13 @@
 import React from "react";
-
-// import { BrowserRouter as Router, Route } from "react-router-dom";
 import Jumbotron from "./components/Jumbotron/Jumbotron";
 import Wrapper from "./components/Wrapper/Wrapper";
 import SearchContainer from "./components/SearchContainer/SearchContainer";
 
+// Main Functiaonal Component which is collection of Wrapper, Jumbotron and SearchContainer component
+// Should return all components within one div element. Wrapper plays that role here
 function App() {
     document.title = "Employee Directory";
-    console.log("From App function");
+
     return (
         <Wrapper>
             <Jumbotron />

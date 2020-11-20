@@ -1,4 +1,6 @@
-#search {
+/* Styling for Input Box */
+input.search-input {
+    background: white;
+    color:black;
     margin-top: 0px;
-    align-content: center;
 }
